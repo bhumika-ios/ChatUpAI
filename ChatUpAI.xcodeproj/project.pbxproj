@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACDAFFAF2A091306001D2EBA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAFFAE2A091306001D2EBA /* WebView.swift */; };
 		ACDF78D22A0392CB00CEE1D8 /* ChatUpAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF78D12A0392CB00CEE1D8 /* ChatUpAIApp.swift */; };
 		ACDF78D42A0392CB00CEE1D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF78D32A0392CB00CEE1D8 /* ContentView.swift */; };
 		ACDF78D62A0392CD00CEE1D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDF78D52A0392CD00CEE1D8 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ACDAFFAE2A091306001D2EBA /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		ACDF78CE2A0392CB00CEE1D8 /* ChatUpAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatUpAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDF78D12A0392CB00CEE1D8 /* ChatUpAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUpAIApp.swift; sourceTree = "<group>"; };
 		ACDF78D32A0392CB00CEE1D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				ACDF78D52A0392CD00CEE1D8 /* Assets.xcassets */,
 				ACDF78D72A0392CD00CEE1D8 /* Preview Content */,
 				ACDF78DF2A03948600CEE1D8 /* ChatGPT.swift */,
+				ACDAFFAE2A091306001D2EBA /* WebView.swift */,
 			);
 			path = ChatUpAI;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACDF78E02A03948600CEE1D8 /* ChatGPT.swift in Sources */,
+				ACDAFFAF2A091306001D2EBA /* WebView.swift in Sources */,
 				ACDF78D42A0392CB00CEE1D8 /* ContentView.swift in Sources */,
 				ACDF78D22A0392CB00CEE1D8 /* ChatUpAIApp.swift in Sources */,
 			);
