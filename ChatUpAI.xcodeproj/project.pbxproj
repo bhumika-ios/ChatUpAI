@@ -14,6 +14,7 @@
 		AC73AE1A2A0F97AF0061A2E3 /* ChatGPTPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC73AE192A0F97AF0061A2E3 /* ChatGPTPage.swift */; };
 		AC73AE1C2A0F9B9F0061A2E3 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC73AE1B2A0F9B9F0061A2E3 /* MessageRow.swift */; };
 		AC73AE1E2A0F9C450061A2E3 /* ChatGPTAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC73AE1D2A0F9C450061A2E3 /* ChatGPTAuth.swift */; };
+		AC73AE202A0F9E9B0061A2E3 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = AC73AE1F2A0F9E9B0061A2E3 /* script.js */; };
 		ACDAFFAF2A091306001D2EBA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAFFAE2A091306001D2EBA /* WebView.swift */; };
 		ACDAFFB12A0919E4001D2EBA /* WebVIewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAFFB02A0919E4001D2EBA /* WebVIewStore.swift */; };
 		ACDF78D22A0392CB00CEE1D8 /* ChatUpAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF78D12A0392CB00CEE1D8 /* ChatUpAIApp.swift */; };
@@ -31,6 +32,8 @@
 		AC73AE192A0F97AF0061A2E3 /* ChatGPTPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTPage.swift; sourceTree = "<group>"; };
 		AC73AE1B2A0F9B9F0061A2E3 /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
 		AC73AE1D2A0F9C450061A2E3 /* ChatGPTAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAuth.swift; sourceTree = "<group>"; };
+		AC73AE1F2A0F9E9B0061A2E3 /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		AC73AE212A0FA0730061A2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		ACDAFFAE2A091306001D2EBA /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		ACDAFFB02A0919E4001D2EBA /* WebVIewStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVIewStore.swift; sourceTree = "<group>"; };
 		ACDF78CE2A0392CB00CEE1D8 /* ChatUpAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatUpAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +76,7 @@
 		ACDF78D02A0392CB00CEE1D8 /* ChatUpAI */ = {
 			isa = PBXGroup;
 			children = (
+				AC73AE212A0FA0730061A2E3 /* Info.plist */,
 				ACDF78D12A0392CB00CEE1D8 /* ChatUpAIApp.swift */,
 				ACDF78D32A0392CB00CEE1D8 /* ContentView.swift */,
 				ACDF78D52A0392CD00CEE1D8 /* Assets.xcassets */,
@@ -93,6 +97,7 @@
 			children = (
 				ACDF78D82A0392CD00CEE1D8 /* Preview Assets.xcassets */,
 				AC73AE1B2A0F9B9F0061A2E3 /* MessageRow.swift */,
+				AC73AE1F2A0F9E9B0061A2E3 /* script.js */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACDF78D92A0392CD00CEE1D8 /* Preview Assets.xcassets in Resources */,
+				AC73AE202A0F9E9B0061A2E3 /* script.js in Resources */,
 				ACDF78D62A0392CD00CEE1D8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +316,7 @@
 				DEVELOPMENT_TEAM = LU893QGJWJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatUpAI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +346,7 @@
 				DEVELOPMENT_TEAM = LU893QGJWJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatUpAI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
