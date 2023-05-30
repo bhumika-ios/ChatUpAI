@@ -16,4 +16,8 @@ The goal of ChatUpAI is to provide users with an intuitive and interactive chatb
 * Multi-language Support: ChatUpAI supports multiple languages, making it accessible to a diverse user base worldwide. Users can communicate with the chatbot in their preferred language.
 * Contextual Understanding: The chatbot understands and maintains context throughout the conversation, ensuring a smooth and coherent dialogue. It can handle follow-up questions, references, and maintain a consistent understanding of user intent.
  
-
+## Used Technology Stack:
+- `SwiftUI`
+- `Xcode`
+- `iOS SDK`
+- `WebKit`
